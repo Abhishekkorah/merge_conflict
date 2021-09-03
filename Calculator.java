@@ -1,11 +1,11 @@
 class Calculator{
 	
 	public static void add(int firstNumber, int secondNumber) {
-		System.out.println("Adding two numbers: "+(firstNumber + secondNumber));
+		System.out.println("Adding two numbers: "+((2*firstNumber) + (2*secondNumber)));
 	}
 	
 	public static void difference(int firstNumber, int secondNumber) {
-		System.out.println("Difference of two numbers: " +(firstNumber - secondNumber));
+		System.out.println("Difference of two numbers: " +((2*firstNumber) - (2*secondNumber)));
 	}
 	public static void main(String[] args) {
 		
